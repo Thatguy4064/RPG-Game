@@ -87,7 +87,7 @@ def grannyfight():
                 print('you breath fire at the Gremlin Granny dealing massive damage leaving the Gremlin Granny with', granny)
                 skill = skill - 1
             else:
-                playerhp = playerhp - batattack
+                playerhp = playerhp - granattack
                 print('you cannot use that anymore')
                 print('you stand still and get hit by the Gremlin Granny, she deals', granattack, 'to your hp', playerhp)
         else:
