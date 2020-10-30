@@ -68,7 +68,7 @@ def grannyfight():
             deflectchance = random.randint(1,2)
             if deflectchance == 1:
                 granny = granny - playerattack
-                print('you deflect the attack, you deal', playerattack, 'to the Gremlin Grannys health', overgrownbat)
+                print('you deflect the attack, you deal', playerattack, 'to the Gremlin Grannys health', granny)
             elif deflectchance == 2:
                 playerhp = playerhp - granattack
                 print('you attempt to deflect the attack but fail, she deals', granattack, 'to your hp',playerhp)
