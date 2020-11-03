@@ -1083,17 +1083,17 @@ You look down and an eye opens... You jump back in panic and a massive Ancient G
                 if race_skill > 0:
                     print('You use your skill, Dragons Breath')
                     dragon = dragon - playermagic*2
-                    print('you breath fire at the Gremlin Granny dealing massive damage leaving the Gremlin Granny with', granny)
+                    print('you breath fire at the Ancient Gold Dragon dealing massive damage leaving the Ancient Gold Dragon with', dragon)
                     race_skill = race_skill - 1
                 else:
-                    playerhp = playerhp - granattack
+                    playerhp = playerhp - goldattack
                     print('you cannot use that anymore')
-                    print('you stand still and get hit by the Gremlin Granny, it deals', granattack, 'to your hp', playerhp)
+                    print('you stand still and get hit by the Ancient Gold Dragon, it deals', goldattack, 'to your hp', playerhp)
         else:
             playerhp = playerhp - goldattack
             print('you stand still and get hit by the Ancient Gold Dragon, he deals', goldattack, 'to your hp', playerhp)
     if playerhp < 1:
-        print('you died')
+        print('you died...THE END')
         score()
     elif dragon < 1:
         print('you defeated the Ancient Gold Dragon')
